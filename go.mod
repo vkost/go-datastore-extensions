@@ -1,5 +1,7 @@
 module github.com/textileio/go-datastore-extensions
 
-go 1.14
+go 1.24.0
 
-require github.com/ipfs/go-datastore v0.5.0
+require github.com/ipfs/go-datastore v0.9.1
+
+require github.com/google/uuid v1.6.0 // indirect
